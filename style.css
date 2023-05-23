@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: hsl(218, 23%, 16%);
+}
+main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Manrope', sans-serif;
+    background: hsl(217, 19%, 38%);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+.advice-number{
+    text-align: center;
+    font-size: min(2vmin, calc(0.65rem + 0.12vmax));
+    color: hsl(150, 100%, 66%);
+    letter-spacing: 0.2rem;
+}
+.advice-text{
+    text-align: center;
+    font-size: min(6.5vmin, calc(1.1rem + 1.2vmax));
+    color: hsl(193, 38%, 86%);
+    margin: 1rem 0;
+    transition: opacity 0.3s ease-out;
+}
+.quotes{
+    font-size: min(4vmin, calc(0.85rem + 0.12vmax));
+    vertical-align: super;
+}
+.advice-text.fade-in {
+    opacity: 1;
+}
+
+.advice-text.fade-out {
+    opacity: 0;
+}
+.pattern-divider{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1.5rem;
+}
+.dice-button{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.dice-button img{
+    height: 20px;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    color: hsl(150, 100%, 66%);
+}
+.attribution a { 
+    color: hsl(193, 38%, 86%);
+}
