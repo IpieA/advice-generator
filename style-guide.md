@@ -1,12 +1,5 @@
 # Front-end Style Guide
 
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
 ## Colors
 
 ### Primary
@@ -21,10 +14,6 @@ The designs were created to the following widths:
 - Dark Blue: hsl(218, 23%, 16%)
 
 ## Typography
-
-### Body Copy
-
-- Font size (quote): 28px
 
 ### Font
 
